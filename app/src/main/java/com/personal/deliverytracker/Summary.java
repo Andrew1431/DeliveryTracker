@@ -38,7 +38,7 @@ public class Summary extends ActionBarActivity {
                 Intent editor = new Intent(getApplicationContext(), EditDeliveryInformation.class);
                 editor.putParcelableArrayListExtra("deliveries", data);
                 editor.putExtra("position", position);
-                startActivityForResult(editor, 1);
+                startActivityForResult(editor, 2);
             }
         });
 
@@ -60,6 +60,20 @@ public class Summary extends ActionBarActivity {
         m.setText("$" + String.format("%.2f", total));
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        System.out.println("Activity resulted!");
+
+        if (requestCode == 2) {
+            if (resultCode == RESULT_OK) {
+
+            }
+            if (resultCode == RESULT_CANCELED) {
+
+            }
+        }
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
