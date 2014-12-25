@@ -8,4 +8,11 @@
     <string name="title_activity_edit_delivery_information">Edit Info</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_delete">Delete</string>
+    <string-array name="payment_options_array">
+        <item>Select to Change</item>
+        <item>Cash</item>
+        <item>Debit Receipt</item>
+        <item>Receipt</item>
+        <item>Credit Card</item>
+    </string-array>
 </resources>

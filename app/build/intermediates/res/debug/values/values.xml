@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- From: file:/C:/Users/Andrew/AndroidStudioProjects/DeliveryTracker/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="payment_options_array">
+        <item>Select to Change</item>
+        <item>Cash</item>
+        <item>Debit Receipt</item>
+        <item>Receipt</item>
+        <item>Credit Card</item>
+    </string-array>
     <!-- From: file:/C:/Users/Andrew/AndroidStudioProjects/DeliveryTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>

@@ -47,4 +47,47 @@
         android:layout_marginStart="4dp"
         android:gravity="center" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipped: "
+        android:id="@+id/textView4"
+        android:layout_below="@+id/deliveryNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:textSize="30dp" />
+
+    <EditText
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:background="@drawable/input_box"
+        android:text="11.58"
+        android:gravity="center"
+        android:layout_below="@+id/deliveryNumber"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_marginTop="40dp" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="Receipt"
+        android:gravity="center"
+        android:background="@drawable/input_box"
+        android:id="@+id/spinner_payment_option"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggle_button"
+        android:layout_below="@id/spinner_payment_option"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp" />
+
+
 </RelativeLayout>
