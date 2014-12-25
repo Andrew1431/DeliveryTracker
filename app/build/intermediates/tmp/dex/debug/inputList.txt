@@ -1,0 +1,5 @@
+C:\Users\Andrew\AndroidStudioProjects\DeliveryTracker\app\build\intermediates\classes\debug
+C:\Users\Andrew\AndroidStudioProjects\DeliveryTracker\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-ec3a3868f435666f841bfab8df9187570773c701.jar
+C:\Users\Andrew\AndroidStudioProjects\DeliveryTracker\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-c1a48456cfc3be603e253681369ca38b6ff860ed.jar
+C:\Users\Andrew\AndroidStudioProjects\DeliveryTracker\app\build\intermediates\pre-dexed\debug\classes-0636de812d774420db7ad32e389d8140666f829f.jar
+C:\Users\Andrew\AndroidStudioProjects\DeliveryTracker\app\build\intermediates\pre-dexed\debug\classes-c000432ef6c55729b3a8618f0ce69b7904bbed7e.jar

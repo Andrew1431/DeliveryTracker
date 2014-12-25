@@ -1,0 +1,100 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="#aaaaaa"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corners_for_content">
+
+    <EditText
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:id="@+id/textDeliveryNumber"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Delivery Number"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tip Amount"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textDeliveryNumber"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:inputType="numberDecimal"
+        android:id="@+id/textTip"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <ToggleButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/toggleIsOut"
+        android:layout_margin="10dp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/cash"
+        android:onClick="submit_click"
+        android:text="Cash"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/debit"
+            android:onClick="submit_click"
+            android:layout_toRightOf="@+id/cash"
+            android:text="Debit"/>
+
+        <Button
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:onClick="submit_click"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/receipt"
+            android:layout_toLeftOf="@+id/cc"
+            android:text="Receipt"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:onClick="submit_click"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/cc"
+            android:text="CC"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Andrew/AndroidStudioProjects/DeliveryTracker/app/src/main/res/layout/activity_main.xml -->

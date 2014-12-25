@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.personal.deliverytracker.EditDeliveryInformation">
+    <item android:id="@+id/action_delete" android:title="@string/action_delete"
+        android:orderInCategory="100" android:icon="@drawable/delete" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_confirm" android:title="Confirm Changes"
+        android:orderInCategory="1" android:icon="@drawable/check" app:showAsAction="ifRoom" />
+</menu>
+<!-- From: file:/C:/Users/Andrew/AndroidStudioProjects/DeliveryTracker/app/src/main/res/menu/menu_edit_delivery_information.xml -->

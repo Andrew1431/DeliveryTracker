@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DTracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_summary">Delivery Summary</string>
+    <string name="title_activity_summary">Summary</string>
+    <string name="title_activity_edit_delivery_information">Edit Info</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_delete">Delete</string>
+</resources>
